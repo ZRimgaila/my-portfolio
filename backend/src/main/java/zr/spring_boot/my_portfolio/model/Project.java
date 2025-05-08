@@ -17,6 +17,7 @@ public class Project {
     private int id;
     private int priority;
     private String name;
+    @Column(length = 1000)
     private String description;
     private String linkToProject;
 
