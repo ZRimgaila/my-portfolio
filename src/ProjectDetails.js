@@ -15,7 +15,7 @@ const ProjectDetails = () => {
                 {error && <div>{error}</div>}
 
                 {/* Algorithm for solving biobjective travel salesman problem */}
-                {project && project.id == 2 && 
+                {project && project.id === 2 && 
                     <article class="blog-post">
                         <h3>{project.name}</h3>
                         <p>{project.description}</p>
@@ -43,7 +43,7 @@ const ProjectDetails = () => {
                     </article>}
 
                 {/* Brain trainer game */}
-                {project && project.id == 1 && 
+                {project && project.id === 1 && 
                     <article class="blog-post">
                         <h3>{project.name}</h3>
                         <p>{project.description}</p>
@@ -71,7 +71,7 @@ const ProjectDetails = () => {
                     </article>}
 
                 {/* Tic Tac Toe game */}
-                {project && project.id == 3 && 
+                {project && project.id === 3 && 
                     <article class="blog-post">
                         <h3>{project.name}</h3>
                         <p>{project.description}</p>

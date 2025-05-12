@@ -5,7 +5,7 @@ const Navbar = () => {
         <div class="container">
             <header className="blog-header lh-1 py-3 d-flex justify-content-center align-items-center">
                 <div className="text-center">
-                    <a className="blog-header-logo text-body-emphasis text-decoration-none" href="#">Žygimantas Rimgaila</a>
+                    <a className="blog-header-logo text-body-emphasis text-decoration-none" href="/">Žygimantas Rimgaila</a>
                 </div>
             </header> 
             <div class="nav-scroller py-1 mb-3 border-bottom"> 

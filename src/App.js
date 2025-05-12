@@ -8,8 +8,6 @@ import Contacts from './Contacts';
 import NotFound from './NotFound';
 
 function App() {
-  const title = 'Welcome to my portfolio';
-
   return (
     <Router>
       <div className="App">
