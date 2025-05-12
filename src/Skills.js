@@ -8,7 +8,7 @@ const Skills = () => {
     return (
         <div className="skills">
             {error && <div>{error}</div>}
-            {isLoading && <div>Loading...</div>}
+            {isLoading && <div className="skill-list container">Loading...</div>}
             {skills && <SkillList skillList = {skills} title = "Tech skills"/>}
         </div>
     )

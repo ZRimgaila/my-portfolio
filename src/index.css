@@ -27,9 +27,7 @@ h1, h2, h3, h4, h5, h6, link {
   margin-bottom: 4rem;
 }
 
-/*
- * Blog posts
- */
+/* Blog posts */
 .blog-post {
   margin-bottom: 4rem;
 }
@@ -37,36 +35,6 @@ h1, h2, h3, h4, h5, h6, link {
   margin-bottom: 1.25rem;
   color: #727272;
 }
-
-/* .navbar {
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  max-width: 600px;
-  margin: auto;
-  border-bottom: 1px solid rgb(111, 104, 92);
-} */
-
-/* .navbar h1{
-  color: #4d8443;
-  font-size: 25px;
-}
-
-.navbar .links {
-  margin-left: auto;
-}
-
-.navbar a{
-  margin-left: 16px;
-  text-decoration: none; 
-  padding: 6px;
-}*/
-
-/* Uzvaziavus su pelyte kaip atrodo */
-/* .navbar a:hover{ 
-  background-color: #8ec884;
-  border-radius: 8px;
-}  */
 
 .flag-text {
   font-weight: bold;
@@ -78,46 +46,6 @@ h1, h2, h3, h4, h5, h6, link {
   background-clip: text;
   color: transparent;
 }
-
-/* .content{
-  max-width: 600px;
-  margin: auto;
-  padding: 20px;
-} */
-
-/* .project-list h2{
-  font-size: 20px;
-} */
-
-/* .project-preview{
-  display: flex;
-  align-items: center;
-  justify-content: space-between; 
-  margin: 10px 0;
-  border: 1px solid #47903a;
-  border-style: dashed;
-  border-radius: 8px;
-} */
-
-/* .project-preview h2:hover{
-  box-shadow: 1px 2px 5px rgba(0,0,0,0.1);;
-} */
-
-/* .project-preview h2{
-  font-size: 16px;
-  margin: 10px;
-  flex-grow: 1; 
-} */
-
-/* .project-preview .my-image{
-  width: 20px;
-  height: auto;
-  margin: 0;
-  padding: 0;
-  margin-left: 8px;
-  object-fit: contain;
-  border-radius: 50%;
-} */
 
 /* Project: Algorithm for solving biobjective travel salesman problem*/
 .project-image-container-2 {
@@ -160,7 +88,6 @@ h1, h2, h3, h4, h5, h6, link {
   border-radius: 50%;
 }
 
-
 .project-details .project-image{
   width: 100%;
   height: auto;
@@ -179,21 +106,13 @@ h1, h2, h3, h4, h5, h6, link {
   object-fit: contain;
 }
 
-
-/* .project-details div{
-  margin: 20px 0; 
-}
-.project-details p{
-  margin: 20px 0; 
-} */
-
 .not-found p{
   margin: 20px 0;
 }
 
 .skill-grid{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 10px;
   align-items: center;
 }
@@ -241,9 +160,7 @@ h1, h2, h3, h4, h5, h6, link {
 }
 
 .my-image {
-  margin-left: 200px;
   border-radius: 30px;
   width: 350px;
   height: auto;
-  padding: 20px;
 }

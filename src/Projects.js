@@ -6,7 +6,7 @@ const Projects = () => {
     return (
         <div className="projects">
             {error && <div>{error}</div>}
-            {isLoading && <div>Loading...</div>}
+            {isLoading && <div className="project-list container">Loading...</div>}
             {projects && <ProjectList projects = {projects} title = "Projects"/>} {/* jei projects nera null tuomet einanam i ProjectList */}
         </div>
     );
