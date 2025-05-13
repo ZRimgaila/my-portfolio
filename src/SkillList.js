@@ -9,11 +9,9 @@ const SkillList = ({skillList, title}) => {
                 <div className="skill-grid">
                     {skillList.map((skill) => (
                         <div className="skill-preview" key={skill.id}>
-                            <Link to={`/image/${skill.id}`}>
-                                <div>
-                                    <img src={`${process.env.REACT_APP_API_URL}/skills/${skill.id}`} alt={skill.name} className="skill-image"/>
-                                </div>
-                            </Link>
+                            <div>
+                                <img src={`${process.env.REACT_APP_API_URL}/skills/${skill.id}`} alt={skill.name} title={skill.name.replace('.png', '')} className="skill-image"/>
+                            </div>
                         </div>
                     ))}
                 </div>

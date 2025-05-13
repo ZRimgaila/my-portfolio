@@ -19,6 +19,7 @@ const ProjectList = ({projects, title}) => {
                                                 key={skill.id} 
                                                 src={`${process.env.REACT_APP_API_URL}/skills/${skill.id}`} 
                                                 alt={skill.name} 
+                                                title={skill.name.replace('.png', '')}
                                                 className="me-2 mb-2 rounded-circle" 
                                                 style={{ width: '40px', height: '40px' }}
                                             />

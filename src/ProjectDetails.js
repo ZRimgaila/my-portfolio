@@ -22,7 +22,7 @@ const ProjectDetails = () => {
                         <div>
                             {"Tech skills used: "}
                             {project.skills.map((skill) => (
-                                <img src={`${process.env.REACT_APP_API_URL}/skills/${skill.id}`} alt="" className="my-image"/>
+                                <img src={`${process.env.REACT_APP_API_URL}/skills/${skill.id}`} alt="" title={skill.name.replace('.png','')} className="my-image"/>
                             ))}
                         </div>
 
@@ -50,7 +50,7 @@ const ProjectDetails = () => {
                         <div>
                             {"Tech skills used: "}
                             {project.skills.map((skill) => (
-                                <img src={`${process.env.REACT_APP_API_URL}/skills/${skill.id}`} alt="" className="my-image"/>
+                                <img src={`${process.env.REACT_APP_API_URL}/skills/${skill.id}`} alt="" title={skill.name.replace('.png','')} className="my-image"/>
                             ))}
                         </div>
 
@@ -78,7 +78,7 @@ const ProjectDetails = () => {
                         <div>
                             {"Tech skills used: "}
                             {project.skills.map((skill) => (
-                                <img src={`${process.env.REACT_APP_API_URL}/skills/${skill.id}`} alt="" className="my-image"/>
+                                <img src={`${process.env.REACT_APP_API_URL}/skills/${skill.id}`} alt="" title={skill.name.replace('.png','')} className="my-image"/>
                             ))}
                         </div>
 

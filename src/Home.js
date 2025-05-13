@@ -2,7 +2,7 @@
 const Home = () => {
 
     return (  
-        <div className="home">
+        <div className="home" >
             <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
             <div className="row align-items-center">
                     <div className="col-12 col-lg-6 px-0">
